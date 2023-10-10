@@ -1,0 +1,563 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.person {
+  background-color: hsla(var(--ig-surface-500));
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: min-content;
+}
+.header {
+  background-color: hsla(var(--ig-surface-500));
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: calc(100% - 828px);
+  min-width: 1440px;
+  min-height: 72px;
+}
+.group {
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 0 8px 32px;
+  width: 100%;
+  height: 85.4%;
+  min-width: 1440px;
+  min-height: 62px;
+}
+.row-layout {
+  display: flex;
+}
+.left {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  width: 36.9%;
+  height: 66.7%;
+  min-width: 519px;
+  min-height: 36px;
+}
+.buttons {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+}
+.group_1 {
+  justify-content: flex-end;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 0 -4px;
+  width: 100%;
+  height: 9.4%;
+  min-width: 1440px;
+  min-height: 7px;
+}
+.border {
+  background-color: hsla(var(--ig-primary-800));
+  position: relative;
+  width: 100%;
+  height: 3px;
+  min-width: 1440px;
+}
+.right {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  right: 32px;
+  top: 16px;
+  position: absolute;
+  width: 5.8%;
+  height: 55.6%;
+}
+.home {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 828px;
+  min-width: 1440px;
+}
+.ribbon {
+  background-color: hsla(var(--ig-primary-700));
+  position: relative;
+  width: 100%;
+  height: 144px;
+  min-width: 1440px;
+}
+.title-and-content {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: hidden;
+  left: 18%;
+  top: 14px;
+  position: absolute;
+  width: 979px;
+  height: 806px;
+  min-width: min-content;
+}
+.title {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  margin: 0 0 0 40px;
+  width: 939px;
+  height: 116px;
+}
+.group_2 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 763px;
+  height: 116px;
+  min-width: min-content;
+}
+.group_3 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  width: 100%;
+  height: 62.1%;
+  min-width: 763px;
+  min-height: 72px;
+}
+.group_4 {
+  justify-content: flex-end;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 0 -4px;
+  width: 100%;
+  height: 34.5%;
+  min-width: 763px;
+  min-height: 40px;
+}
+.buttons_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 763px;
+  height: 36px;
+}
+.content {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  margin: 30px 102px 0 0;
+  width: 877px;
+  height: 453px;
+}
+.content_1 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  width: 99.5%;
+  height: 100%;
+  min-width: 873px;
+  min-height: 453px;
+}
+.left_1 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  width: calc(92.1% - 661px);
+  height: 64%;
+  min-width: 143px;
+  min-height: 290px;
+}
+.hire-dates {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 56.6%;
+  height: 24.1%;
+  min-width: 81px;
+  min-height: 70px;
+}
+.group_5 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  width: 100%;
+  height: 41.4%;
+  min-width: 81px;
+  min-height: 29px;
+}
+.group_6 {
+  justify-content: flex-end;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 100%;
+  height: 58.6%;
+  min-width: 81px;
+  min-height: 41px;
+}
+.specialties {
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 100%;
+  height: 30.3%;
+  min-width: 143px;
+  min-height: 88px;
+}
+.waste-water {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 -1px 0 0;
+  width: 143px;
+  height: 24px;
+}
+.nuclear-disposal {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 143px;
+  height: 24px;
+}
+.group_7 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 143px;
+  min-height: 24px;
+}
+.address {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  width: 143px;
+  height: 24px;
+}
+.manager {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  width: 91.6%;
+  height: 23.4%;
+  min-width: 131px;
+  min-height: 68px;
+}
+.person_1 {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  width: 131px;
+  height: 40px;
+}
+.right_1 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  width: 661px;
+  height: 453px;
+  min-width: min-content;
+}
+.personal {
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 109px;
+  height: 24px;
+}
+.name {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  width: 100%;
+  height: calc(27.400000000000006% - 74px);
+  min-width: 661px;
+  min-height: 50px;
+}
+.details {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  width: 80.5%;
+  height: calc(27.400000000000006% - 74px);
+  min-width: 532px;
+  min-height: 50px;
+}
+.adress {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  width: 92.3%;
+  height: calc(27.400000000000006% - 74px);
+  min-width: 610px;
+  min-height: 50px;
+}
+.phones {
+  justify-content: flex-start;
+  align-items: flex-end;
+  align-content: flex-start;
+  position: relative;
+  width: 100%;
+  height: calc(27.400000000000006% - 74px);
+  min-width: 661px;
+  min-height: 50px;
+}
+.group_8 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  left: 410px;
+  bottom: 0;
+  position: absolute;
+  width: 159px;
+  height: 20px;
+}
+.rapid-fission-inc {
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+}
+.avatar {
+  position: relative;
+}
+.erin-brockovich {
+  color: #FFFFFFFF;
+  position: relative;
+  width: 29.2%;
+  height: max-content;
+  min-width: 223px;
+}
+.water-quality-specialist {
+  color: #FFFFFFFF;
+  position: relative;
+  width: 21.5%;
+  height: max-content;
+  min-width: 164px;
+}
+.hire-date {
+  text-align: center;
+  color: hsla(var(--ig-primary-500));
+  position: relative;
+  width: 71.6%;
+  height: max-content;
+  min-width: 58px;
+}
+.feb-01-2010 {
+  text-align: center;
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  width: 100%;
+  height: max-content;
+  min-width: 81px;
+}
+.y-10m-7d {
+  text-align: center;
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  margin: 0 11px 0 0;
+  width: 86.4%;
+  height: max-content;
+  min-width: 70px;
+}
+.icon {
+  --size: 18px;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  min-width: min-content;
+}
+.waste-water-mgmt {
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  width: calc(94.4% - 18px);
+  height: max-content;
+  min-width: 118px;
+}
+.nuclear-disposal_1 {
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  margin: 0 0 0 8px;
+  width: calc(83.2% - 18px);
+  height: max-content;
+  min-width: 101px;
+}
+.california-usa {
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  margin: 0 0 0 8px;
+  width: calc(75.5% - 18px);
+  height: max-content;
+  min-width: 90px;
+}
+.manager_1 {
+  color: hsla(var(--ig-primary-500));
+  position: relative;
+  margin: 0 0 0 1px;
+  width: 41.2%;
+  height: max-content;
+  min-width: 54px;
+}
+.donnie-darko {
+  color: #000000FF;
+  position: relative;
+  width: calc(93.9% - 40px);
+  height: max-content;
+  min-width: 83px;
+}
+.icon_1 {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  min-width: min-content;
+}
+.personal_1 {
+  text-align: center;
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  width: calc(92.7% - 24px);
+  height: max-content;
+  min-width: 77px;
+}
+.basic-information {
+  text-align: center;
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  width: 18.3%;
+  height: max-content;
+  min-width: 121px;
+}
+.contact {
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  width: 8%;
+  height: max-content;
+  min-width: 53px;
+}
+.icon_2 {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: hsla(var(--ig-gray-700));
+  position: relative;
+}
+.c-2020-rapid-fission-inc {
+  text-align: center;
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  width: 100%;
+  height: max-content;
+  min-width: 159px;
+}
+.button {
+  --igx-button-foreground: hsla(var(--ig-secondary-500));
+  position: relative;
+  width: 88px;
+  height: max-content;
+  min-width: min-content;
+}
+.button_1 {
+  --igx-button-foreground: hsla(var(--ig-gray-500));
+  position: relative;
+  width: 88px;
+  height: max-content;
+  min-width: min-content;
+}
+.button_2 {
+  --igx-button-foreground: hsla(var(--ig-gray-700));
+  --igx-button-background: #FFFFFF00;
+  position: relative;
+}
+.button_3 {
+  --igx-button-foreground: #FFFFFFFF;
+  --igx-button-background: hsla(var(--ig-primary-400));
+  position: relative;
+  width: 109px;
+  height: max-content;
+  min-width: min-content;
+}
+.button_4 {
+  --igx-button-foreground: #FFFFFFFF;
+  position: relative;
+  width: 109px;
+  height: max-content;
+  min-width: min-content;
+}
+.input {
+  position: relative;
+  width: 215px;
+  height: max-content;
+  min-width: min-content;
+}
+.select {
+  position: relative;
+  width: 262px;
+  min-width: min-content;
+}
+.input_1 {
+  position: relative;
+  margin: 0 0 0 1px;
+  width: 574px;
+  height: max-content;
+}
+.input_2 {
+  position: relative;
+  width: 237px;
+  height: max-content;
+  min-width: min-content;
+}
+.input_3 {
+  position: relative;
+  width: 120px;
+  height: max-content;
+  min-width: min-content;
+}

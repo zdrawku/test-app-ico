@@ -1,0 +1,480 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.home {
+  background-color: hsla(var(--ig-surface-500));
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: min-content;
+}
+.header {
+  background-color: hsla(var(--ig-surface-500));
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: calc(100% - 828px);
+  min-width: 1440px;
+  min-height: 72px;
+}
+.group {
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 0 8px 32px;
+  width: 100%;
+  height: 85.4%;
+  min-width: 1440px;
+  min-height: 62px;
+}
+.row-layout {
+  display: flex;
+}
+.left {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  width: 36.9%;
+  height: 66.7%;
+  min-width: 519px;
+  min-height: 36px;
+}
+.buttons {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+}
+.group_1 {
+  justify-content: flex-end;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 0 -4px;
+  width: 100%;
+  height: 9.4%;
+  min-width: 1440px;
+  min-height: 7px;
+}
+.border {
+  background-color: hsla(var(--ig-primary-800));
+  position: relative;
+  width: 100%;
+  height: 3px;
+  min-width: 1440px;
+}
+.right {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  right: 32px;
+  top: 16px;
+  position: absolute;
+  width: 5.8%;
+  height: 55.6%;
+}
+.person {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 828px;
+  min-width: 1440px;
+}
+.ribbon {
+  background-color: hsla(var(--ig-primary-700));
+  position: relative;
+  width: 100%;
+  height: 144px;
+  min-width: 1440px;
+}
+.title-and-content {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: hidden;
+  left: 17%;
+  top: 6%;
+  position: absolute;
+  width: 960px;
+  height: 768px;
+  min-width: min-content;
+}
+.title {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  width: 14.6%;
+  height: 5.2%;
+  min-width: 140px;
+  min-height: 40px;
+}
+.content {
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: hidden;
+  left: 0;
+  bottom: 24px;
+  position: absolute;
+  width: 960px;
+  height: 684px;
+}
+.left_1 {
+  background-color: hsla(var(--ig-surface-500));
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+  height: 684px;
+  min-width: min-content;
+}
+.group_2 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 300px;
+  min-height: 684px;
+}
+.profile {
+  background-color: hsla(var(--ig-gray-200));
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  width: 300px;
+  height: 96px;
+}
+.text {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 167px;
+  height: 56px;
+  min-width: min-content;
+}
+.summary {
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  margin: 32px 20px 0 21px;
+  width: 259px;
+  height: 102px;
+}
+.open-pto {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  width: 120px;
+  height: 102px;
+  min-width: min-content;
+}
+.bereavement-leave {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  width: 117px;
+  height: 102px;
+  min-width: min-content;
+}
+.group_3 {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  width: 54px;
+  height: 24px;
+}
+.actions {
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  margin: 18px 13px 0 16px;
+  padding: 0 3px 0 0;
+  width: 271px;
+  height: 36px;
+}
+.list {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  margin: 32px 0 0;
+  width: 100%;
+  height: calc(75.1% - 234px);
+  min-width: 300px;
+  min-height: 280px;
+}
+.right_1 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  width: 644px;
+  height: 684px;
+  min-width: min-content;
+}
+.heading {
+  background-color: hsla(var(--ig-gray-200));
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 16px;
+  width: 644px;
+  height: 32px;
+}
+.rapid-fission-inc {
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+}
+.avatar {
+  position: relative;
+}
+.icon {
+  --size: 36px;
+  font-size: 36px;
+  width: 36px;
+  height: 36px;
+  color: #FFFFFFFF;
+  position: relative;
+  min-width: min-content;
+}
+.home_1 {
+  text-align: center;
+  color: #FFFFFFFF;
+  position: relative;
+}
+.erin-brockovich {
+  text-align: center;
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  margin: 0 12px 0 0;
+  width: 92.8%;
+  height: max-content;
+  min-width: 155px;
+}
+.water-quality-special {
+  text-align: center;
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  width: 100%;
+  height: max-content;
+  min-width: 167px;
+}
+.open-pto_1 {
+  text-align: center;
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  width: 50%;
+  height: max-content;
+  min-width: 60px;
+}
+.icon_1 {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+}
+.days-used-ytd {
+  text-align: center;
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  width: 100%;
+  height: max-content;
+  min-width: 120px;
+}
+.day-scheduled {
+  text-align: center;
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  width: 72.5%;
+  height: max-content;
+  min-width: 87px;
+}
+.bereavement-leave_1 {
+  text-align: center;
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  width: 100%;
+  height: max-content;
+  min-width: 117px;
+}
+.h6 {
+  text-align: center;
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  width: calc(85.2% - 18px);
+  height: max-content;
+  min-width: 28px;
+}
+.icon_2 {
+  --size: 18px;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  color: hsla(var(--ig-primary-500));
+  position: relative;
+  min-width: min-content;
+}
+.days-available {
+  text-align: center;
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  width: 75.2%;
+  height: max-content;
+  min-width: 88px;
+}
+.day-scheduled_1 {
+  text-align: center;
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  width: 74.4%;
+  height: max-content;
+  min-width: 87px;
+}
+.whats-the-buzz {
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  margin: 0 0 0 17px;
+  width: 32.7%;
+  height: max-content;
+  min-width: 98px;
+}
+.icon_3 {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: hsla(var(--ig-gray-700));
+}
+.whats-happening-at {
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  width: 38.2%;
+  height: max-content;
+  min-width: 234px;
+}
+.announcements-1 {
+  color: hsla(var(--ig-gray-900));
+  position: relative;
+  width: 19.4%;
+  height: max-content;
+  min-width: 119px;
+}
+.my-benefits {
+  color: #000000FF;
+  position: relative;
+  margin: 16px 0 0 16px;
+  width: 13%;
+  height: max-content;
+  min-width: 84px;
+}
+.avatar_1 {
+  --igx-avatar-background: hsla(var(--ig-gray-100));
+  position: relative;
+}
+.c-2020-rapid-fissi {
+  text-align: center;
+  color: hsla(var(--ig-gray-900));
+  left: calc(50% - 79px);
+  bottom: 0;
+  position: absolute;
+  width: 16.6%;
+  height: max-content;
+}
+.avatar_1_1::part(base) {
+  --igx-avatar-color: hsla(var(--ig-gray-800));
+}
+.avatar_1_2::part(base) {
+  --igx-avatar-color: hsla(var(--ig-gray-800));
+}
+.avatar_1_3::part(base) {
+  --igx-avatar-color: hsla(var(--ig-gray-800));
+}
+.avatar_1_4::part(base) {
+  --igx-avatar-color: hsla(var(--ig-gray-800));
+}
+.button {
+  --igx-button-foreground: hsla(var(--ig-secondary-500));
+  position: relative;
+  width: 88px;
+  height: max-content;
+  min-width: min-content;
+}
+.button_1 {
+  --igx-button-foreground: hsla(var(--ig-gray-500));
+  position: relative;
+  width: 88px;
+  height: max-content;
+  min-width: min-content;
+}
+.button_2 {
+  --igx-button-foreground: hsla(var(--ig-gray-700));
+  --igx-button-background: #FFFFFF00;
+  position: relative;
+}
+.button_3 {
+  --igx-button-foreground: hsla(var(--ig-gray-900));
+  --igx-button-background: hsla(var(--ig-secondary-500));
+  position: relative;
+  width: 224px;
+  height: max-content;
+  min-width: min-content;
+}
+.button_4 {
+  --igx-button-foreground: hsla(var(--ig-primary-500));
+  --igx-button-background: #FFFFFF00;
+  position: relative;
+}
+.list_1 {
+  position: relative;
+  width: 300px;
+}
+.list_2 {
+  position: relative;
+  margin: 8px 0 0;
+  width: 644px;
+}
+.list_3 {
+  position: relative;
+  margin: 16px 0 0;
+  width: 644px;
+}
